@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>RGB Color Flipper</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>background color : <span class="color">rgb(241, 245, 248)</span></h2>
+    <div class="inputs-container">
+      <div class="input-box">
+        <p>Red</p>
+        <input type="range" value="241" min="0" max="255" class="range-value">
+        <span class="range-text">241</span>
+      </div>
+      <div class="input-box">
+        <p>Green</p>
+        <input type="range" value="245" min="0" max="255" class="range-value">
+        <span class="range-text">245</span>
+      </div>
+      <div class="input-box">
+        <p>Blue</p>
+        <input type="range" value="248" min="0" max="255" class="range-value">
+        <span class="range-text">248</span>
+      </div>
+    </div>
+    <button class="btn">change background</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
