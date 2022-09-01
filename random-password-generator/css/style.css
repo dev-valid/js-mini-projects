@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'vazir';
+  src: url('/font/Vazir.woff') format('woff'), url('/font/Vazir.ttf') format('truetype'), url('/font/Vazir.woff2') format('woff2');
+}
+
+body {
+  font-family: vazir;
+  background-color: #a8a8a8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 100%;
+  }
+  75% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.box {
+  max-width: 400px;
+  width: 90%;
+  background-color: #d3d3d3;
+}
+
+.len {
+  width: 60px;
+  padding: 0 2px;
+}
+
+.copy-btn {
+  cursor: pointer;
+}
+
+.alert {
+  z-index: 1;
+}
+
+.copy-alert {
+  animation: fade 3s;
+  z-index: 100;
+}
